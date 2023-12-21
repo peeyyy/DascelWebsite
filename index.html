@@ -122,10 +122,7 @@
             let popup = document.getElementById("popup");
 
             function openPopup(){
-            setTimeout(() => {
-                popup.classList.add("open-popup");
-            }, 500)
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+            popup.classList.add("open-popup");
             }
             function closePopup(){
                 popup.classList.remove("open-popup");
