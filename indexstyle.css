@@ -235,6 +235,8 @@ input, textarea {
     border-color: white; 
     background-color: transparent;
     border-style: solid;
+    color: white;
+    font-family: 'Quicksand';
 }
 .msg {
     padding: 25px;
