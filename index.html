@@ -58,7 +58,7 @@
                 <div class="contact-wrapper">
                     <div class="contact-form">
                         <h3>SEND US A MESSAGE</h3>
-                        <form>
+                        <form onsubmit="return false">
                             <div class="form-group">Full Name
                                 <input type="text" name="name">
                             </div>
@@ -71,7 +71,7 @@
                             <div class="form-group">Message
                                 <textarea class="msg" name="message"></textarea>
                             </div>
-                            <button class="btn2" type="submit" onclick="openPopup()">SUBMIT</button>
+                            <button href="#" class="btn2" type="submit" onclick="openPopup()">SUBMIT</button>
                             <div class="popup" id="popup">
                                 <img src="check.png">
                                 <h2>Success!</h2>
